@@ -50,16 +50,6 @@ function addPoduct(){
     return 0;
 }
 
-
-
-
-for( let product in products){
-    table.appendChild(tr);
-        tr.appendChild(th);
-
-
-
-}
 form.onsubmit = function (e){
     e.preventDefault();
 }
